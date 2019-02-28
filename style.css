@@ -1,0 +1,13 @@
+/*
+font-family: 'Cinzel', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+.head {
+    font-family: 'Cinzel', serif;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
