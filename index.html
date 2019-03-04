@@ -13,12 +13,12 @@
     <h1 class="head">crystalMe</h1>
     <form id="feeling">
         <p>How are you feeling today?</p>
-        <input type="radio" id="moodOpt" name="option1" value="overwhelmed">Overwhelmed<br>
-        <input type="radio" id="moodOpt" name="option1" value="stressed">Stressed<br>
-        <input type="radio" id="moodOpt" name="option1" value="drained">Drained<br>
-        <input type="radio" id="moodOpt" name="option1" value="sleepy">Sleepy<br>
+        <input type="radio" id="option1" name="choice" value="Overwhelmed">Overwhelmed<br>
+        <input type="radio" id="option2" name="choice" value="Stressed">Stressed<br>
+        <input type="radio" id="option3" name="choice" value="Drained">Drained<br>
+        <input type="radio" id="option4" name="choice" value="Sleepy">Sleepy<br>
 
-        <input type="button" id="button" value="Show Me My Crystal!" onclick="determine()">
+        <input type="button" id="button" value="Show Me My Crystal!" onclick="determine(this.value)">
 
 
     </form>
